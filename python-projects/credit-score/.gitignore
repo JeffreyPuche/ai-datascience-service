@@ -1,0 +1,101 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# === Environments ===
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# === Data Science / Jupyter ===
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+.jupyter
+.pylintrc
+.spyderproject
+.spyproject
+.ropeproject
+/site
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pytest_cache/
+.ruff_cache/
+
+# === Data & Models (Professional standard for DS) ===
+# Ignorar carpetas comunes de datos
+data/
+raw_data/
+processed_data/
+mlruns/
+# Ignorar archivos de datos pesados
+*.csv
+*.tsv
+*.parquet
+*.jsonl
+*.h5
+*.hd5
+*.pkl
+*.pickle
+*.joblib
+*.npy
+*.npz
+*.onnx
+*.pb
+*.pt
+*.pth
+*.ckpt
+*.weights
+
+# === Logs ===
+*.log
+credit_score.log
+
+# === IDEs ===
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# PyCharm / IntelliJ
+.idea/
+
+# === OS ===
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# === uv (Python package manager) ===
+# uv auto-generated files (si los hubiera fuera de .venv)
+# Nota: uv.lock se DEBE subir al repo usualmente, por eso no se ignora.

@@ -1,0 +1,10 @@
+hidden_layers:
+  - 64
+  - 32
+activation_functions:
+  - relu
+  - relu
+dropout_rate: 0.2
+learning_rate: 0.001
+epochs: 100
+batch_size: 32

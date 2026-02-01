@@ -1,0 +1,45 @@
+# Archivos de Python
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+
+# Control de versiones (Git)
+.git
+.gitignore
+
+# Configuraciones de IDEs (Entornos de Desarrollo)
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Específicos de Machine Learning (ML)
+mlruns/
+mlflow.db
+models/
+*.pkl
+*.h5
+
+# Específicos del proyecto
+dev_requirements.txt
+Dockerfile.api
+Dockerfile.client
+docker-compose.yml
+README.md
+uv.lock
+pyproject.toml

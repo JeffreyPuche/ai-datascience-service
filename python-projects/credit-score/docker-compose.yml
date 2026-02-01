@@ -1,0 +1,41 @@
+services:
+  api-service:
+    build:
+      context: . # Define la raíz del proyecto como el entorno de donde Docker puede tomar archivos (COPY)
+      dockerfile: Dockerfile.api
+    container_name: credit-score-api
+    ports:
+      - "8000:8000"
+    volumes:
+      # Hot-reloading: mapear directorios locales al contenedor para ver cambios en tiempo real
+      - ./server:/app/server
+      - ./inference:/app/inference
+      - ./config:/app/config
+      - ./model:/app/model
+      - ./processing:/app/processing
+    networks:
+      - credit-score-network
+    # Sobrescribir el comando para habilitar --reload en desarrollo
+    command: uvicorn server.api:app --host 0.0.0.0 --port 8000 --reload
+
+  client-service:
+    build:
+      context: .
+      dockerfile: Dockerfile.client
+    container_name: credit-score-client
+    ports:
+      - "3000:3000"
+    volumes:
+      # Hot-reloading: mapear el código de la interfaz local al contenedor
+      - ./examples/client_web:/app
+    environment:
+      # URL para que la interfaz sepa dónde encontrar la API (desde el navegador del usuario)
+      - API_URL=http://localhost:8000
+    networks:
+      - credit-score-network
+    # Sobrescribir el comando para habilitar --reload en desarrollo
+    command: uvicorn main:app --host 0.0.0.0 --port 3000 --reload
+
+networks:
+  credit-score-network:
+    driver: bridge
