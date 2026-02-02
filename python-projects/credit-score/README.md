@@ -7,8 +7,7 @@
 ![MLOps](https://img.shields.io/badge/MLOps-MLflow-green)
 
 <div align="center">
-  <img src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&q=80&w=1000" alt="Neon Credit Card Concept" width="600" style="border-radius: 10px; box-shadow: 0px 0px 20px rgba(138, 43, 226, 0.5);">
-  <p><em>*Nota: Para la imagen personalizada neón (naranja, verde, morado), reemplaza este link con tu asset local.*</em></p>
+  <img src="assets/app-preview.png" alt="Credit Intelligence AI Preview" width="800" style="border-radius: 10px; box-shadow: 0px 0px 20px rgba(138, 43, 226, 0.5);">
 </div>
 
 ---
