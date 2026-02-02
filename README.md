@@ -77,7 +77,7 @@ Donde el código se vuelve profesional. Aquí residen las aplicaciones estructur
 
 | Proyecto | Descripción | Estado |
 | :--- | :--- | :---: |
-| **Credit Score AI** | **[Completado]** Evaluación de riesgo crediticio E2E. Incluye preprocesamiento robusto, entrenamiento de modelos, API con FastAPI y un cliente web interactivo. <br> 📺 **[Ver Vídeo Explicativo](https://youtu.be/S5j4cSOEyik)** | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) |
+| **Credit Score AI** | **[Completado]** Evaluación de riesgo crediticio E2E. Incluye preprocesamiento robusto, entrenamiento de modelos, API con FastAPI y un cliente web interactivo. <br> 📺 **[Ver Vídeo Explicativo](https://youtu.be/S5j4cSOEyik)** <br> 🔗 **[Ir al proyecto Credit Score AI](python-projects/credit-score/README.md)** | ![Active](https://img.shields.io/badge/Status-Active-brightgreen) |
 | **Energy Imports** | *Work in progress*. Análisis y predicción de importaciones de energía. Se desplegará prontamente. | ![Pending](https://img.shields.io/badge/Status-Pending-orange) |
 | **Retail Sales** | *Work in progress*. Optimización y pronóstico de ventas para retail. Se desplegará prontamente. | ![Pending](https://img.shields.io/badge/Status-Pending-orange) |
 | **X-ray Diagnosis** | *Work in progress*. Clasificación de imágenes médicas mediante Deep Learning. Se desplegará prontamente. | ![Pending](https://img.shields.io/badge/Status-Pending-orange) |
