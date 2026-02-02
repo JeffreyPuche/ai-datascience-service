@@ -1,0 +1,5 @@
+outs:
+- md5: fdc6c03b22ec9c0fd261400a82affd35
+  size: 23695
+  hash: md5
+  path: model_weights_000.pth

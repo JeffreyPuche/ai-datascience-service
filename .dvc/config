@@ -1,2 +1,2 @@
-['remote "origin"']
-    url = https://dagshub.com/jeffreypuche/repo-credit-score.dvc
+['remote "ai-datascience-service"']
+    url = https://dagshub.com/jeffreypuche/ai-datascience-service.dvc
