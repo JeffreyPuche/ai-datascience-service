@@ -24,11 +24,11 @@ Este proyecto trasciende el modelado tradicional; es una implementación de refe
 Puedes ver una explicación detallada de este proyecto y su funcionamiento en el siguiente vídeo:
 
 <div align="center">
-  <a href="[https://youtu.be/S5j4cSOEyik](https://youtu.be/S5j4cSOEyik)">
-    <img src="https://img.youtube.com/vi/S5j4cSOEyik//hqdefault.jpg" alt="Video Demo" width="600" style="border-radius: 10px; box-shadow: 0px 0px 15px rgba(255, 0, 0, 0.3);">
+  <a href="https://www.youtube.com/watch?v=S5j4cSOEyik">
+    <img src="https://img.youtube.com/vi/S5j4cSOEyik/hqdefault.jpg" alt="Video Demo Thumbnail" width="600" style="border-radius: 10px; box-shadow: 0px 0px 15px rgba(255, 0, 0, 0.3);">
   </a>
   <br>
-  <a href="https://youtu.be/S5j4cSOEyik">
+  <a href="https://www.youtube.com/watch?v=S5j4cSOEyik">
     <img src="https://img.shields.io/badge/YouTube-Video_Explicativo-red?style=for-the-badge&logo=youtube" alt="YouTube Badge">
   </a>
 </div>
