@@ -20,7 +20,9 @@ Este proyecto trasciende el modelado tradicional; es una implementación de refe
 
 ---
 
-## 📺 Video Demo
+## 📺 Video Tutoriales
+
+### 🔹 Explicación del Proyecto y Demo
 Puedes ver una explicación detallada de este proyecto y su funcionamiento en el siguiente vídeo:
 
 <div align="center">
@@ -30,6 +32,19 @@ Puedes ver una explicación detallada de este proyecto y su funcionamiento en el
   <br>
   <a href="https://www.youtube.com/watch?v=S5j4cSOEyik">
     <img src="https://img.shields.io/badge/YouTube-Video_Explicativo-red?style=for-the-badge&logo=youtube" alt="YouTube Badge">
+  </a>
+</div>
+
+### 🔹 Guía de Despliegue (Production Ready)
+En este vídeo aprenderás cómo desplegar el servicio completo utilizando Docker y mejores prácticas:
+
+<div align="center">
+  <a href="https://www.youtube.com/watch?v=V2LokJd68bU">
+    <img src="https://img.youtube.com/vi/V2LokJd68bU/hqdefault.jpg" alt="Video Despliegue Thumbnail" width="600" style="border-radius: 10px; box-shadow: 0px 0px 15px rgba(0, 255, 255, 0.3);">
+  </a>
+  <br>
+  <a href="https://www.youtube.com/watch?v=V2LokJd68bU">
+    <img src="https://img.shields.io/badge/YouTube-Guía_de_Despliegue-blue?style=for-the-badge&logo=youtube" alt="YouTube Badge">
   </a>
 </div>
 
